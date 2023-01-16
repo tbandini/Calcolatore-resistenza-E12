@@ -19,7 +19,7 @@ form {
     margin: 0 auto;
     padding: 20px;
     text-align: left;
-    width: 150px;
+    width: 170px;
 }
 
 input {
@@ -87,10 +87,12 @@ select {
 }
 
 #colorResult {
-    width: 50%;
-    height: 25px;
+    width: 80%;
+    height: 40px;
     display: flex;
-    translate: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
     align-items: center;
     justify-content: space-evenly;
     background-color: aliceblue;
@@ -99,46 +101,52 @@ select {
 
 .color1 {
     position: relative;
-    width: 5px;
-    height: 20px;
-    background-color: gainsboro;
-    border: 1px solid #2e2c3e;
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px;
+    width: 13px;
+    height: 27px;
+    background-color: #cd9f74;
+    border: 2px solid #2e2c3e;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 .color2 {
     position: relative;
-    width: 5px;
-    height: 20px;
-    background-color: gainsboro;
-    border: 1px solid #2e2c3e;
+    width: 13px;
+    height: 27px;
+    background-color: #cd9f74;
+    border: 2px solid #2e2c3e;
+    border-radius: 2px;
 }
 
 .multiplier {
     position: relative;
-    width: 5px;
-    height: 20px;
-    background-color: gainsboro;
-    border: 1px solid #2e2c3e;
+    width: 13px;
+    height: 27px;
+    background-color: #cd9f74;
+    border: 2px solid #2e2c3e;
+    border-radius: 2px;
 }
 
 .tolerance {
     position: relative;
-    width: 5px;
-    height: 20px;
-    background-color: gainsboro;
-    border: 1px solid #2e2c3e;
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px;
+    width: 13px;
+    height: 27px;
+    background-color: #cd9f74;
+    border: 2px solid #2e2c3e;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
 }
 
 .resistorStem {
     position: relative;
     align-self: center;
-    width: 10px;
+    width: 18px;
     height: 2px;
-    background-color: gainsboro;
+    background-color: #a1a2a5;
     border: 1px solid #2e2c3e;
     border-radius: 1px;
 }
