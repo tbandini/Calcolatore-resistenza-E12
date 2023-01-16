@@ -1,0 +1,174 @@
+h1 {
+    color: aliceblue;
+}
+
+body {
+    background-color: #1e2033;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    color: aliceblue;
+    margin-top: 100px;
+    text-align: center;
+    zoom: 150%;
+}
+
+form {
+    background-color: #2e2c3e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    width: 150px;
+}
+
+input {
+    font-family: "Roboto Mono", monospace;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #2e2c3e;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    font-family: "Roboto Mono", monospace;
+    transition: all 0.2s ease-in-out;
+    background-color: aliceblue;
+    color: black;
+    margin-top: 15px;
+    height: 25px;
+    width: 50%;
+    translate: 50%;
+    border-radius: 10px;
+    border: 1px solid #2e2c3e;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #2e2c3e;
+    color: aliceblue;
+    border-color: aliceblue;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+select {
+    font-family: "Roboto Mono", monospace;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #2e2c3e;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+#numberResult {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.result {
+    display: flex;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+#colorResult {
+    width: 50%;
+    height: 25px;
+    display: flex;
+    translate: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.color1 {
+    position: relative;
+    width: 5px;
+    height: 20px;
+    background-color: gainsboro;
+    border: 1px solid #2e2c3e;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.color2 {
+    position: relative;
+    width: 5px;
+    height: 20px;
+    background-color: gainsboro;
+    border: 1px solid #2e2c3e;
+}
+
+.multiplier {
+    position: relative;
+    width: 5px;
+    height: 20px;
+    background-color: gainsboro;
+    border: 1px solid #2e2c3e;
+}
+
+.tolerance {
+    position: relative;
+    width: 5px;
+    height: 20px;
+    background-color: gainsboro;
+    border: 1px solid #2e2c3e;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.resistorStem {
+    position: relative;
+    align-self: center;
+    width: 10px;
+    height: 2px;
+    background-color: gainsboro;
+    border: 1px solid #2e2c3e;
+    border-radius: 1px;
+}
+
+/* imposta il footer in basso a destra */
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 12px;
+    color: aliceblue;
+}
+
+/* to hide arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* to zoom the whole page */
+div.zoomed {
+    zoom: 3;
+    -moz-transform: scale(3);
+    -moz-transform-origin: 0 0;
+}

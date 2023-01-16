@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <script
+            src="https://code.jquery.com/jquery-3.6.1.js"
+            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+            crossorigin="anonymous"
+        ></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="script.js" defer="defer"></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>Calcolo resistenza e12</title>
+        <link rel="icon" href="favicon.svg" />
+    </head>
+    <body>
+        <h1>Calcolo resistenza e12</h1>
+        <form method="POST" id="searchForm">
+            <label> VCC(V): </label>
+            <input type="number" id="Vcc" />
+
+            <label> I(A): </label>
+            <input type="number" id="I" />
+
+            <label>V&gamma;(V):</label>
+            <select id="Vgamma">
+                <option value="1.8">🔴 rosso</option>
+                <option value="1.9">🟡 giallo</option>
+                <option value="2.0">🟢 verde</option>
+                <option value="2.0">🟠 arancione</option>
+                <option value="3.5">🔵 blu</option>
+            </select>
+
+            <button id="btn" type="submit">Invia</button>
+
+            <div class="result">
+                <p>risultato:</p>
+                <p id="numberResult">&#8486;</p>
+            </div>
+            <div id="colorResult">
+                <div class="resistorStem"></div>
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="multiplier"></div>
+                <div class="tolerance"></div>
+                <div class="resistorStem"></div>
+            </div>
+        </form>
+        <footer>
+            <p>Bandini Tommaso - 5ATL ITIS Alberghetti 2023</p>
+        </footer>
+    </body>
+</html>
