@@ -169,14 +169,12 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-/* Firefox */
-input[type="number"] {
+/* input[type="number"] {
     -moz-appearance: textfield;
 }
 
-/* to zoom the whole page */
 div.zoomed {
     zoom: 3;
     -moz-transform: scale(3);
     -moz-transform-origin: 0 0;
-}
+} */
