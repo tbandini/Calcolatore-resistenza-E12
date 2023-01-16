@@ -1,0 +1,1 @@
+# Calcolatore-resistenza-E12
