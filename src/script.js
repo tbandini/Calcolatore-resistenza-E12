@@ -1,5 +1,3 @@
-var request;
-
 $("#btn").click((e) => {
     e.preventDefault();
 
